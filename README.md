@@ -40,7 +40,7 @@
 
 ## Contracts Architecture
 
-``LympidToken``
+``src/token/ERC677/LympidToken.sol:LympidToken``
 
 ### Contracts Graph
 
@@ -210,7 +210,7 @@
 |    🛑    | Function can modify state |
 |    💵    | Function is payable |
 
-``TokenVesting``
+``src/vesting/Vesting.sol:TokenVesting``
 
 ### Contracts Graph
 
