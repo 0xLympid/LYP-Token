@@ -44,7 +44,7 @@
 
 ### Contracts Graph
 
-[TestToken Graph](assets/testtoken.svg)
+![TestToken Graph](assets/testtoken.png)
 
 ### Contracts Inheritance Graph
 
