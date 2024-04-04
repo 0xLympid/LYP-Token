@@ -1,0 +1,323 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1394pt" height="956pt" viewBox="0.00 0.00 1393.79 956.00">
+<g id="graph0" class="graph" transform="translate(4,952) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-952 1389.79,-952 1389.79,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterTokenVesting">
+
+<path fill="#445773" stroke="#445773" d="M20,-178C20,-178 1365.79,-178 1365.79,-178 1371.79,-178 1377.79,-184 1377.79,-190 1377.79,-190 1377.79,-791 1377.79,-791 1377.79,-797 1371.79,-803 1365.79,-803 1365.79,-803 20,-803 20,-803 14,-803 8,-797 8,-791 8,-791 8,-190 8,-190 8,-184 14,-178 20,-178" style=""/>
+<text text-anchor="middle" x="692.89" y="-786.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TokenVesting</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterSafeTransferLib">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M931.62,-8C931.62,-8 1042.19,-8 1042.19,-8 1048.19,-8 1054.19,-14 1054.19,-20 1054.19,-20 1054.19,-73 1054.19,-73 1054.19,-79 1048.19,-85 1042.19,-85 1042.19,-85 931.62,-85 931.62,-85 925.62,-85 919.62,-79 919.62,-73 919.62,-73 919.62,-20 919.62,-20 919.62,-14 925.62,-8 931.62,-8" style=""/>
+<text text-anchor="middle" x="986.91" y="-68.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">SafeTransferLib</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterERC20">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M940.2,-93C940.2,-93 1033.62,-93 1033.62,-93 1039.62,-93 1045.62,-99 1045.62,-105 1045.62,-105 1045.62,-158 1045.62,-158 1045.62,-164 1039.62,-170 1033.62,-170 1033.62,-170 940.2,-170 940.2,-170 934.2,-170 928.2,-164 928.2,-158 928.2,-158 928.2,-105 928.2,-105 928.2,-99 934.2,-93 940.2,-93" style=""/>
+<text text-anchor="middle" x="986.91" y="-153.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ERC20</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="114.95,-811 114.95,-940 607.68,-940 607.68,-811 114.95,-811" style=""/>
+<text text-anchor="middle" x="361.31" y="-923.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- TokenVesting.onlyIfVestingScheduleNotRevoked -->
+<g id="node1" class="node" pointer-events="visible" data-name="TokenVesting.onlyIfVestingScheduleNotRevoked">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="349.26,-740.54 349.26,-755.46 254.77,-766 121.14,-766 26.64,-755.46 26.64,-740.54 121.14,-730 254.77,-730 349.26,-740.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="353.26,-736.97 353.26,-759.03 254.99,-770 120.91,-770 22.64,-759.03 22.64,-736.97 120.91,-726 254.99,-726 353.26,-736.97" style=""/>
+<text text-anchor="middle" x="187.95" y="-743.8" font-family="Times,serif" font-size="14.00" style="">onlyIfVestingScheduleNotRevoked</text>
+</g>
+<!-- TokenVesting.&lt;Constructor&gt; -->
+<g id="node2" class="node" pointer-events="visible" data-name="TokenVesting.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="187.95" cy="-690" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-685.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- TokenVesting.ERC20 -->
+<g id="node23" class="node" pointer-events="visible" data-name="TokenVesting.ERC20">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="572.68" cy="-690" rx="39.45" ry="18" style=""/>
+<text text-anchor="middle" x="572.68" y="-685.8" font-family="Times,serif" font-size="14.00" style="">ERC20</text>
+</g>
+<!-- TokenVesting.&lt;Constructor&gt;&#45;&gt;TokenVesting.ERC20 -->
+<g id="edge1" class="edge" data-name="TokenVesting.&lt;Constructor&gt;-&gt;TokenVesting.ERC20">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M256.93,-690C331.85,-690 450.74,-690 518.94,-690" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="518.84,-693.5 528.84,-690 518.84,-686.5 518.84,-693.5" style=""/>
+</g>
+<!-- TokenVesting.&lt;Receive Ether&gt; -->
+<g id="node3" class="node" pointer-events="visible" data-name="TokenVesting.&lt;Receive Ether&gt;">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="187.95" cy="-636" rx="76.21" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-631.8" font-family="Times,serif" font-size="14.00" style="">&lt;Receive Ether&gt;</text>
+</g>
+<!-- TokenVesting.&lt;Fallback&gt; -->
+<g id="node4" class="node" pointer-events="visible" data-name="TokenVesting.&lt;Fallback&gt;">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="187.95" cy="-582" rx="55.36" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-577.8" font-family="Times,serif" font-size="14.00" style="">&lt;Fallback&gt;</text>
+</g>
+<!-- TokenVesting.createVestingSchedule -->
+<g id="node5" class="node" pointer-events="visible" data-name="TokenVesting.createVestingSchedule">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="187.95" cy="-420" rx="99.54" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-415.8" font-family="Times,serif" font-size="14.00" style="">createVestingSchedule</text>
+</g>
+<!-- TokenVesting.getWithdrawableAmount -->
+<g id="node17" class="node" pointer-events="visible" data-name="TokenVesting.getWithdrawableAmount">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="572.68" cy="-258" rx="109.37" ry="18" style=""/>
+<text text-anchor="middle" x="572.68" y="-253.8" font-family="Times,serif" font-size="14.00" style="">getWithdrawableAmount</text>
+</g>
+<!-- TokenVesting.createVestingSchedule&#45;&gt;TokenVesting.getWithdrawableAmount -->
+<g id="edge2" class="edge" data-name="TokenVesting.createVestingSchedule-&gt;TokenVesting.getWithdrawableAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M288.01,-422.33C313.82,-418.43 339.96,-409.9 359.9,-393 398.51,-360.29 357.23,-317.62 395.9,-285 411.27,-272.04 430.19,-263.92 449.86,-259.03" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="450.52,-262.47 459.57,-256.95 449.05,-255.62 450.52,-262.47" style=""/>
+</g>
+<!-- TokenVesting.computeNextVestingScheduleIdForHolder -->
+<g id="node18" class="node" pointer-events="visible" data-name="TokenVesting.computeNextVestingScheduleIdForHolder">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="572.68" cy="-420" rx="176.55" ry="18" style=""/>
+<text text-anchor="middle" x="572.68" y="-415.8" font-family="Times,serif" font-size="14.00" style="">computeNextVestingScheduleIdForHolder</text>
+</g>
+<!-- TokenVesting.createVestingSchedule&#45;&gt;TokenVesting.computeNextVestingScheduleIdForHolder -->
+<g id="edge3" class="edge" data-name="TokenVesting.createVestingSchedule-&gt;TokenVesting.computeNextVestingScheduleIdForHolder">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M288.51,-420C317.25,-420 349.62,-420 381.92,-420" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="381.74,-423.5 391.74,-420 381.74,-416.5 381.74,-423.5" style=""/>
+</g>
+<!-- TokenVesting.revoke -->
+<g id="node6" class="node" pointer-events="visible" data-name="TokenVesting.revoke">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="187.95" cy="-528" rx="37.12" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-523.8" font-family="Times,serif" font-size="14.00" style="">revoke</text>
+</g>
+<!-- TokenVesting.release -->
+<g id="node8" class="node" pointer-events="visible" data-name="TokenVesting.release">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="572.68" cy="-528" rx="37.68" ry="18" style=""/>
+<text text-anchor="middle" x="572.68" y="-523.8" font-family="Times,serif" font-size="14.00" style="">release</text>
+</g>
+<!-- TokenVesting.revoke&#45;&gt;TokenVesting.release -->
+<g id="edge5" class="edge" data-name="TokenVesting.revoke-&gt;TokenVesting.release">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M226.35,-528C295.33,-528 442.7,-528 520.74,-528" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="520.54,-531.5 530.54,-528 520.54,-524.5 520.54,-531.5" style=""/>
+</g>
+<!-- TokenVesting._computeReleasableAmount -->
+<g id="node21" class="node" pointer-events="visible" data-name="TokenVesting._computeReleasableAmount">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="986.91" cy="-582" rx="122.69" ry="18" style=""/>
+<text text-anchor="middle" x="986.91" y="-577.8" font-family="Times,serif" font-size="14.00" style="">_computeReleasableAmount</text>
+</g>
+<!-- TokenVesting.revoke&#45;&gt;TokenVesting._computeReleasableAmount -->
+<g id="edge4" class="edge" data-name="TokenVesting.revoke-&gt;TokenVesting._computeReleasableAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M225.96,-525.6C262.76,-525 319.42,-529.07 359.9,-555 384.19,-570.56 370.47,-595.39 395.9,-609 534.44,-683.14 592.57,-617.93 749.45,-609 792.82,-606.53 840.44,-601.54 881.51,-596.51" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="881.82,-600 891.31,-595.29 880.96,-593.05 881.82,-600" style=""/>
+</g>
+<!-- TokenVesting.withdraw -->
+<g id="node7" class="node" pointer-events="visible" data-name="TokenVesting.withdraw">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="187.95" cy="-312" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-307.8" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- TokenVesting.withdraw&#45;&gt;TokenVesting.getWithdrawableAmount -->
+<g id="edge6" class="edge" data-name="TokenVesting.withdraw-&gt;TokenVesting.getWithdrawableAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M233.98,-305.65C292.47,-297.39 396.21,-282.76 473.33,-271.88" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="473.53,-275.38 482.95,-270.52 472.56,-268.45 473.53,-275.38" style=""/>
+</g>
+<!-- SafeTransferLib.safeTransfer -->
+<g id="node25" class="node" pointer-events="visible" data-name="SafeTransferLib.safeTransfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="986.91" cy="-34" rx="59.08" ry="18" style=""/>
+<text text-anchor="middle" x="986.91" y="-29.8" font-family="Times,serif" font-size="14.00" style="">safeTransfer</text>
+</g>
+<!-- TokenVesting.withdraw&#45;&gt;SafeTransferLib.safeTransfer -->
+<g id="edge7" class="edge" data-name="TokenVesting.withdraw-&gt;SafeTransferLib.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M236.43,-314.43C272.9,-314.08 323.09,-308.58 359.9,-285 384.19,-269.44 373.22,-248.83 395.9,-231 540.78,-117.12 609.88,-144.98 785.45,-89 832.45,-74.01 886.42,-59.35 926.51,-48.94" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="927.27,-52.35 936.08,-46.47 925.52,-45.58 927.27,-52.35" style=""/>
+</g>
+<!-- TokenVesting.release&#45;&gt;TokenVesting._computeReleasableAmount -->
+<g id="edge8" class="edge" data-name="TokenVesting.release-&gt;TokenVesting._computeReleasableAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M610.26,-532.79C669.89,-540.6 790.26,-556.37 878.74,-567.96" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="878.18,-571.42 888.55,-569.25 879.09,-564.48 878.18,-571.42" style=""/>
+</g>
+<!-- TokenVesting.payable -->
+<g id="node24" class="node" pointer-events="visible" data-name="TokenVesting.payable">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="986.91" cy="-528" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="986.91" y="-523.8" font-family="Times,serif" font-size="14.00" style="">payable</text>
+</g>
+<!-- TokenVesting.release&#45;&gt;TokenVesting.payable -->
+<g id="edge9" class="edge" data-name="TokenVesting.release-&gt;TokenVesting.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M611.72,-528C685.13,-528 846.54,-528 931.37,-528" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="931.27,-531.5 941.27,-528 931.27,-524.5 931.27,-531.5" style=""/>
+</g>
+<!-- TokenVesting.release&#45;&gt;SafeTransferLib.safeTransfer -->
+<g id="edge10" class="edge" data-name="TokenVesting.release-&gt;SafeTransferLib.safeTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M609.86,-534.12C650.14,-538.65 714.2,-538.63 749.45,-501 812.28,-433.93 726.59,-159.58 785.45,-89 816.48,-51.79 870.09,-38.48 914.07,-34.24" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="914.07,-37.75 923.76,-33.47 913.51,-30.77 914.07,-37.75" style=""/>
+</g>
+<!-- TokenVesting.getVestingSchedulesCountByBeneficiary -->
+<g id="node9" class="node" pointer-events="visible" data-name="TokenVesting.getVestingSchedulesCountByBeneficiary">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="187.95" cy="-366" rx="171.9" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-361.8" font-family="Times,serif" font-size="14.00" style="">getVestingSchedulesCountByBeneficiary</text>
+</g>
+<!-- TokenVesting.getVestingIdAtIndex -->
+<g id="node10" class="node" pointer-events="visible" data-name="TokenVesting.getVestingIdAtIndex">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="187.95" cy="-474" rx="92.63" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-469.8" font-family="Times,serif" font-size="14.00" style="">getVestingIdAtIndex</text>
+</g>
+<!-- TokenVesting.getVestingSchedulesCount -->
+<g id="node14" class="node" pointer-events="visible" data-name="TokenVesting.getVestingSchedulesCount">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="572.68" cy="-474" rx="115.78" ry="18" style=""/>
+<text text-anchor="middle" x="572.68" y="-469.8" font-family="Times,serif" font-size="14.00" style="">getVestingSchedulesCount</text>
+</g>
+<!-- TokenVesting.getVestingIdAtIndex&#45;&gt;TokenVesting.getVestingSchedulesCount -->
+<g id="edge11" class="edge" data-name="TokenVesting.getVestingIdAtIndex-&gt;TokenVesting.getVestingSchedulesCount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M281.6,-474C329.93,-474 389.84,-474 442.64,-474" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="442.52,-477.5 452.52,-474 442.52,-470.5 442.52,-477.5" style=""/>
+</g>
+<!-- TokenVesting.getVestingScheduleByAddressAndIndex -->
+<g id="node11" class="node" pointer-events="visible" data-name="TokenVesting.getVestingScheduleByAddressAndIndex">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="572.68" cy="-312" rx="169.62" ry="18" style=""/>
+<text text-anchor="middle" x="572.68" y="-307.8" font-family="Times,serif" font-size="14.00" style="">getVestingScheduleByAddressAndIndex</text>
+</g>
+<!-- TokenVesting.getVestingSchedule -->
+<g id="node16" class="node" pointer-events="visible" data-name="TokenVesting.getVestingSchedule">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="986.91" cy="-312" rx="88.05" ry="18" style=""/>
+<text text-anchor="middle" x="986.91" y="-307.8" font-family="Times,serif" font-size="14.00" style="">getVestingSchedule</text>
+</g>
+<!-- TokenVesting.getVestingScheduleByAddressAndIndex&#45;&gt;TokenVesting.getVestingSchedule -->
+<g id="edge12" class="edge" data-name="TokenVesting.getVestingScheduleByAddressAndIndex-&gt;TokenVesting.getVestingSchedule">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M743.73,-312C791.56,-312 842.07,-312 884.52,-312" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="884.39,-315.5 894.39,-312 884.39,-308.5 884.39,-315.5" style=""/>
+</g>
+<!-- TokenVesting.computeVestingScheduleIdForAddressAndIndex -->
+<g id="node20" class="node" pointer-events="visible" data-name="TokenVesting.computeVestingScheduleIdForAddressAndIndex">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="986.91" cy="-366" rx="201.41" ry="18" style=""/>
+<text text-anchor="middle" x="986.91" y="-361.8" font-family="Times,serif" font-size="14.00" style="">computeVestingScheduleIdForAddressAndIndex</text>
+</g>
+<!-- TokenVesting.getVestingScheduleByAddressAndIndex&#45;&gt;TokenVesting.computeVestingScheduleIdForAddressAndIndex -->
+<g id="edge13" class="edge" data-name="TokenVesting.getVestingScheduleByAddressAndIndex-&gt;TokenVesting.computeVestingScheduleIdForAddressAndIndex">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M685.5,-326.65C737.38,-333.44 799.41,-341.57 853.59,-348.67" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="853.09,-352.13 863.46,-349.96 854,-345.19 853.09,-352.13" style=""/>
+</g>
+<!-- TokenVesting.getVestingSchedulesTotalAmount -->
+<g id="node12" class="node" pointer-events="visible" data-name="TokenVesting.getVestingSchedulesTotalAmount">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="187.95" cy="-258" rx="144.13" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-253.8" font-family="Times,serif" font-size="14.00" style="">getVestingSchedulesTotalAmount</text>
+</g>
+<!-- TokenVesting.getToken -->
+<g id="node13" class="node" pointer-events="visible" data-name="TokenVesting.getToken">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="187.95" cy="-204" rx="47.51" ry="18" style=""/>
+<text text-anchor="middle" x="187.95" y="-199.8" font-family="Times,serif" font-size="14.00" style="">getToken</text>
+</g>
+<!-- TokenVesting.computeReleasableAmount -->
+<g id="node15" class="node" pointer-events="visible" data-name="TokenVesting.computeReleasableAmount">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="572.68" cy="-582" rx="117.54" ry="18" style=""/>
+<text text-anchor="middle" x="572.68" y="-577.8" font-family="Times,serif" font-size="14.00" style="">computeReleasableAmount</text>
+</g>
+<!-- TokenVesting.computeReleasableAmount&#45;&gt;TokenVesting._computeReleasableAmount -->
+<g id="edge14" class="edge" data-name="TokenVesting.computeReleasableAmount-&gt;TokenVesting._computeReleasableAmount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M691.53,-582C740.99,-582 798.82,-582 850.06,-582" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="849.91,-585.5 859.91,-582 849.91,-578.5 849.91,-585.5" style=""/>
+</g>
+<!-- ERC20.balanceOf -->
+<g id="node26" class="node" pointer-events="visible" data-name="ERC20.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="986.91" cy="-119" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="986.91" y="-114.8" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- TokenVesting.getWithdrawableAmount&#45;&gt;ERC20.balanceOf -->
+<g id="edge15" class="edge" data-name="TokenVesting.getWithdrawableAmount-&gt;ERC20.balanceOf">
+
+<path fill="none" stroke="white" stroke-width="2" d="M614.97,-240.06C657.29,-222.04 725.25,-194.13 785.45,-174 833.78,-157.84 889.79,-142.77 930.3,-132.51" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="931.09,-135.92 939.94,-130.09 929.39,-129.13 931.09,-135.92" style=""/>
+</g>
+<!-- TokenVesting.computeNextVestingScheduleIdForHolder&#45;&gt;TokenVesting.computeVestingScheduleIdForAddressAndIndex -->
+<g id="edge16" class="edge" data-name="TokenVesting.computeNextVestingScheduleIdForHolder-&gt;TokenVesting.computeVestingScheduleIdForAddressAndIndex">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M687.41,-405.1C738.93,-398.35 800.15,-390.33 853.7,-383.32" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="853.96,-386.81 863.43,-382.04 853.06,-379.87 853.96,-386.81" style=""/>
+</g>
+<!-- TokenVesting.getLastVestingScheduleForHolder -->
+<g id="node19" class="node" pointer-events="visible" data-name="TokenVesting.getLastVestingScheduleForHolder">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="572.68" cy="-366" rx="145.26" ry="18" style=""/>
+<text text-anchor="middle" x="572.68" y="-361.8" font-family="Times,serif" font-size="14.00" style="">getLastVestingScheduleForHolder</text>
+</g>
+<!-- TokenVesting.getLastVestingScheduleForHolder&#45;&gt;TokenVesting.computeVestingScheduleIdForAddressAndIndex -->
+<g id="edge17" class="edge" data-name="TokenVesting.getLastVestingScheduleForHolder-&gt;TokenVesting.computeVestingScheduleIdForAddressAndIndex">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M719.3,-366C736.27,-366 753.84,-366 771.49,-366" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="771.32,-369.5 781.32,-366 771.32,-362.5 771.32,-369.5" style=""/>
+</g>
+<!-- TokenVesting.getCurrentTime -->
+<g id="node22" class="node" pointer-events="visible" data-name="TokenVesting.getCurrentTime">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="1297.07" cy="-582" rx="72.93" ry="18" style=""/>
+<text text-anchor="middle" x="1297.07" y="-577.8" font-family="Times,serif" font-size="14.00" style="">getCurrentTime</text>
+</g>
+<!-- TokenVesting._computeReleasableAmount&#45;&gt;TokenVesting.getCurrentTime -->
+<g id="edge18" class="edge" data-name="TokenVesting._computeReleasableAmount-&gt;TokenVesting.getCurrentTime">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M1111.03,-582C1144.18,-582 1179.33,-582 1209.99,-582" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="1209.8,-585.5 1219.8,-582 1209.8,-578.5 1209.8,-585.5" style=""/>
+</g>
+<!-- key -->
+<g id="node27" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="252.95,-907 122.95,-907 122.95,-819 252.95,-819 252.95,-907" style=""/>
+<text text-anchor="start" x="172.59" y="-888.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="168.7" y="-868.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="146.15" y="-848.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="132.55" y="-828.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node28" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="599.68,-907 545.68,-907 545.68,-819 599.68,-819 599.68,-907" style=""/>
+<text text-anchor="start" x="562.68" y="-888.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="562.68" y="-868.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="560.68,-843 560.68,-863 585.68,-863 585.68,-843 560.68,-843" style=""/>
+<text text-anchor="start" x="562.68" y="-848.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="562.68,-825 562.68,-841 583.68,-841 583.68,-825 562.68,-825" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge19" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M245.95,-893C381.03,-893 417.96,-893 546.9,-893" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="546.65,-896.5 556.65,-893 546.65,-889.5 546.65,-896.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge20" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M245.95,-873C381.03,-873 417.96,-873 546.9,-873" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="546.65,-876.5 556.65,-873 546.65,-869.5 546.65,-876.5" style=""/>
+</g>
+</g>
+</svg>
