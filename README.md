@@ -40,15 +40,15 @@
 
 ## Contracts Architecture
 
-``TestToken``
+``LympidToken``
 
 ### Contracts Graph
 
-![TestToken Graph](assets/testtoken.png)
+![LympidToken Graph](assets/lympidtoken.png)
 
 ### Contracts Inheritance Graph
 
-![TestToken Inheritance Graph](assets/testtokeninheritance.svg)
+![LympidToken Inheritance Graph](assets/lympidtokeninheritance.svg)
 
 ### Contracts Description Table
 
