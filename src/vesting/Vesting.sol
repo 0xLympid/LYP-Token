@@ -351,12 +351,10 @@ contract TokenVesting is Owned, ReentrancyGuard {
         else {
             // Compute the number of full vesting periods that have elapsed.
             uint256 timeFromStart = currentTime - vestingSchedule.start;
-            uint256 secondsPerSlice = vestingSchedule.slicePeriodSeconds;
-            uint256 vestedSlicePeriods = timeFromStart / secondsPerSlice;
-            uint256 vestedSeconds = vestedSlicePeriods * secondsPerSlice;
+            uint256 vestedSlicePeriods = timeFromStart / vestingSchedule.slicePeriodSeconds;
             // Compute the amount of tokens that are vested.
             uint256 vestedAmount = (vestingSchedule.amountTotal *
-                vestedSeconds) / vestingSchedule.duration;
+                vestedSlicePeriods * VestingSchedule.slicePeriodSeconds) / vestingSchedule.duration;
             // Subtract the amount already released and return.
             return vestedAmount - vestingSchedule.released;
         }
