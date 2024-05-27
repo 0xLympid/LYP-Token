@@ -19,21 +19,17 @@ contract BurnMintERC677 is IBurnMintERC20, ERC677, IERC165, ERC20Burnable, Owner
 
   error SenderNotMinter(address sender);
   error SenderNotBurner(address sender);
-  error SenderNotAdmin(address sender);
   error MaxSupplyExceeded(uint256 supplyAfterMint);
 
   event MintAccessGranted(address indexed minter);
   event BurnAccessGranted(address indexed burner);
   event MintAccessRevoked(address indexed minter);
   event BurnAccessRevoked(address indexed burner);
-  event AdminAccessGranted(address indexed admin);
 
   // @dev the allowed minter addresses
   EnumerableSet.AddressSet internal s_minters;
   // @dev the allowed burner addresses
   EnumerableSet.AddressSet internal s_burners;
-  // @dev the allowed admin addresses
-  EnumerableSet.AddressSet internal s_admins;
 
   /// @dev The number of decimals for the token
   uint8 internal immutable i_decimals;
@@ -120,7 +116,7 @@ contract BurnMintERC677 is IBurnMintERC20, ERC677, IERC165, ERC20Burnable, Owner
   /// @inheritdoc ERC20Burnable
   /// @dev Uses OZ ERC20 _burn to disallow burning from address(0).
   /// @dev Decreases the total supply.
-  function burnFrom(address account, uint256 amount) public override(IBurnMintERC20, ERC20Burnable) onlyAdmin {
+  function burnFrom(address account, uint256 amount) public override(IBurnMintERC20, ERC20Burnable) onlyBurner {
     super.burnFrom(account, amount);
   }
 
@@ -203,12 +199,6 @@ contract BurnMintERC677 is IBurnMintERC20, ERC677, IERC165, ERC20Burnable, Owner
   function isBurner(address burner) public view returns (bool) {
     return s_burners.contains(burner);
   }
-  
-  /// @notice Checks whether a given address is an admin for this token.
-  /// @return true if the address is allowed.
-  function isAdmin(address admin) public view returns (bool) {
-    return s_admins.contains(admin);
-  }
 
   /// @notice Checks whether the msg.sender is a permissioned minter for this token
   /// @dev Reverts with a SenderNotMinter if the check fails
@@ -221,13 +211,6 @@ contract BurnMintERC677 is IBurnMintERC20, ERC677, IERC165, ERC20Burnable, Owner
   /// @dev Reverts with a SenderNotBurner if the check fails
   modifier onlyBurner() {
     if (!isBurner(msg.sender)) revert SenderNotBurner(msg.sender);
-    _;
-  }
-  
-  /// @notice Checks whether the msg.sender is a permissioned admin for this token
-  /// @dev Reverts with a SenderNotBurner if the check fails
-  modifier onlyAdmin() {
-    if (!isAdmin(msg.sender)) revert SenderNotAdmin(msg.sender);
     _;
   }
 }
