@@ -11,18 +11,6 @@ import {ReentrancyGuard} from "../vendor/openzeppelin/v4.8.0/contracts/utils/Ree
  * @title Vesting
  */
 contract TokenVesting is Owned, ReentrancyGuard {
-    event VestingScheduleCreated(
-      address indexed beneficiary,
-      uint256 start,
-      uint256 cliff,
-      uint256 duration,
-      uint256 slicePeriodSeconds,
-      bool revocable,
-      uint256 amount
-    );
-    event TokensReleased(bytes32 indexed vestingScheduleId, uint256 amount);
-    event VestingScheduleRevoked(bytes32 indexed vestingScheduleId);  
-    
     struct VestingSchedule {
         // beneficiary of tokens after they are released
         address beneficiary;
@@ -155,7 +143,6 @@ contract TokenVesting is Owned, ReentrancyGuard {
             vestingSchedule.released;
         vestingSchedulesTotalAmount = vestingSchedulesTotalAmount - unreleased;
         vestingSchedule.revoked = true;
-        emit VestingScheduleRevoked(vestingScheduleId);
     }
 
     /**
@@ -203,7 +190,6 @@ contract TokenVesting is Owned, ReentrancyGuard {
         );
         vestingSchedulesTotalAmount = vestingSchedulesTotalAmount - amount;
         SafeTransferLib.safeTransfer(_token, beneficiaryPayable, amount);
-        emit TokensReleased(vestingScheduleId, amount);
     }
 
     /**
