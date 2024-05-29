@@ -131,6 +131,15 @@ contract TokenVesting is Owned, ReentrancyGuard {
         vestingSchedulesIds.push(vestingScheduleId);
         uint256 currentVestingCount = holdersVestingCount[_beneficiary];
         holdersVestingCount[_beneficiary] = currentVestingCount + 1;
+        emit VestingScheduleCreated(
+            _beneficiary,
+            _start,
+            cliff,
+            _duration,
+            _slicePeriodSeconds,
+            _revocable,
+            _amount
+        );
     }
 
     /**
