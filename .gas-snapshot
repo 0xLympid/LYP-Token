@@ -1,0 +1,5 @@
+BurnMintERC677Test:testBurning() (gas: 225342)
+BurnMintERC677Test:testGrantAndRevokeRoles() (gas: 129948)
+BurnMintERC677Test:testMinting() (gas: 136664)
+BurnMintERC677Test:testMintingExceedingMaxSupply() (gas: 90448)
+BurnMintERC677Test:testTransferValidation() (gas: 134920)

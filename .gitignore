@@ -1,5 +1,6 @@
 # Foundry
 lib/
+node_modules/
 
 # Compiler files
 cache/
@@ -15,3 +16,10 @@ docs/
 
 # Dotenv file
 .env
+
+# Misc
+.DS_Store
+
+# Deploy Artifacts
+addresses.txt
+*.log
